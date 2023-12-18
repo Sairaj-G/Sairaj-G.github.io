@@ -1,0 +1,10 @@
+.accounts{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin: 5.0rem 0;
+}
+
+.accounts ul li{
+    margin: 0.6rem 0;
+}
