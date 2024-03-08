@@ -3,7 +3,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height : 7rem;
-    background-color: rgb(4, 4, 72);
+    background-color: rgb(231, 226, 226);
 }
 
 nav ul{
@@ -26,6 +26,7 @@ li:hover {
     display: flex;
     font-size: 2.5rem;
     margin: 2.5rem 2.5rem;
+    color: rgb(0, 0, 0);
 }
 
 .content-heading{
@@ -33,27 +34,28 @@ li:hover {
     justify-content: center;
     font-size: 4.5rem;
     margin: 2.5rem 2.5rem;
+    color: rgb(0, 0, 0);
 }
 
 a:visited{
   font-size: 3 rem;
   background-color: transparent;
   text-decoration : none;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 a:link{
     font-size: 3 rem;
     background-color: transparent;
     text-decoration : none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 a:active {
     font-size: 3 rem;
     background-color: transparent;
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .image{
@@ -70,7 +72,7 @@ a:active {
 
 .content-heading h4{
     overflow: hidden; 
-    border-right: .15em solid white; 
+    border-right: .15em solid rgb(10, 8, 8); 
     white-space: nowrap; 
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .05em; /* Adjust as needed */
@@ -88,5 +90,5 @@ a:active {
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: white; }
+    50% { border-color: rgb(0, 0, 0); }
   }
