@@ -38,7 +38,7 @@ li:hover {
 }
 
 a:visited{
-  font-size: 3 rem;
+  font-size: 10 vw;
   background-color: transparent;
   text-decoration : none;
   color: rgb(0, 0, 0);
@@ -66,8 +66,9 @@ a:active {
 }
 
 .image img{
-    width: 25rem;
-    height: 30rem;
+    width: 25%;
+    max-width: 100%;
+    height: auto;
 }
 
 .content-heading h4{
