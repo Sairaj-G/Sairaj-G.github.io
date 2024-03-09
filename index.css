@@ -14,11 +14,11 @@ nav ul li{
     font-weight: bold;
     list-style: none;
     margin: 0 2.3rem;
-    font-size: 2.0rem;
+    font-size: 2vw;
 }
 
 li:hover {
-    font-size: 3.0rem;
+    font-size:3.6vw;
 }
 
 
