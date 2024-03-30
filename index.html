@@ -5,16 +5,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Sai</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
     <style>
         body {
-            background-color: rgb(251, 251, 255);
-            color: white
-        }
-
-        * {
+            background-color: #f2f2f2;
+            color: #333;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+        }
+
+        header {
+            background-color: #007bff;
+            padding: 10px 0;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav ul li {
+            margin: 0 10px;
+        }
+
+        .nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .nav ul li a:hover {
+            color: #f8f9fa;
+        }
+
+        .main-body {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .image img {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .content-heading h4 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .self-info {
+            font-size: 16px;
+            line-height: 1.6;
         }
     </style>
 </head>
@@ -25,57 +79,42 @@
             <div class="nav">
                 <ul>
                     <li>
-                        <a href="index.html">
-                            Home
-                        </a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="projects.html">
-                            Projects
-                        </a>
+                        <a href="projects.html">Projects</a>
                     </li>
                     <li>
-                        <a href="contact-me.html">
-                            Contact Me
-                        </a>
-                    </li>    
+                        <a href="poems.html">My Poems</a> <!-- Added link to poems.html -->
+                    </li>
+                    <li>
+                        <a href="contact-me.html">Contact Me</a>
+                    </li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
         <div class="main-body">
-
-            <div class = "image">
+            <div class="image">
                 <img src="me-img.jpg" alt="Coder Image">
             </div>
-
             <div class="content-heading">
-                <h4>
-                    Hi! I am Sairaj Ghosarwadkar.
-                </h4>
+                <h4>Hi! I am Sairaj Ghosarwadkar.</h4>
             </div>
-
             <div class="content-body">
-                <p>
-                    I am a third year student from the Indian Institute of Technology, Guwahati.
+                <p class="self-info">
+                    I am a third-year student from the Indian Institute of Technology, Guwahati.
                     Pursuing a major in Electronics and Communication Engineering and a minor in Computer Science and
                     Engineering.
                     I am a passionate student having interest in both electronics and computer science.
                     I have engaged myself in some projects, got involved in some coding contests.
                     <br>
-                    Feel free to get in touch on Linkedin or over mail.
+                    Feel free to get in touch on Linkedin or over email.
                 </p>
             </div>
-            
-            <div>
-
-            </div>
-
         </div>
     </main>
-
-
 </body>
 
 </html>
