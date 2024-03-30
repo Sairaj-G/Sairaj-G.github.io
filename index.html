@@ -23,17 +23,18 @@
         }
 
         .nav {
-            display: flex;
-            justify-content: center;
+            text-align: center;
         }
 
         .nav ul {
             list-style: none;
-            display: flex;
+            padding: 0;
+            margin: 0;
         }
 
         .nav ul li {
-            margin: 0 10px;
+            display: inline-block;
+            margin: 0 15px;
         }
 
         .nav ul li a {
@@ -45,6 +46,13 @@
 
         .nav ul li a:hover {
             color: #f8f9fa;
+        }
+
+        @media (max-width: 768px) {
+            .nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
         }
 
         .main-body {
@@ -70,25 +78,42 @@
             font-size: 16px;
             line-height: 1.6;
         }
+
+        /* Adjustments for smaller screens */
+        @media (max-width: 576px) {
+            .main-body {
+                padding: 10px;
+            }
+
+            .image img {
+                width: 150px;
+            }
+
+            .content-heading h4 {
+                font-size: 20px;
+            }
+
+            .self-info {
+                font-size: 14px;
+            }
+        }
     </style>
 </head>
 
 <body>
     <header>
-        <nav>
-            <div class="nav">
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="projects.html">Projects</a>
-                    </li>
-                    <li>
-                        <a href="contact-me.html">Contact Me</a>
-                    </li>
-                </ul>
-            </div>
+        <nav class="nav">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="projects.html">Projects</a>
+                </li>
+                <li>
+                    <a href="contact-me.html">Contact Me</a>
+                </li>
+            </ul>
         </nav>
     </header>
     <main>
